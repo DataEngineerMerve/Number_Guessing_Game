@@ -27,7 +27,7 @@ def number_guessing_game():
         print(f"I am sorry. Game over.The choosen number is:{choosen_number}")
 
 #you can start the game
-number_guessing_game
+number_guessing_game()
 
 
 
