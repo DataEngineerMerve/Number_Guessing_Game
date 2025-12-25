@@ -14,7 +14,7 @@ def number_guessing_game():
         except ValueError:
             print("Please try again")
             continue
-        if user_chance ==choosen_number:
+        if user_chance==choosen_number:
             print("Congratulations! You won.")
             break
         elif user_chance > choosen_number:
